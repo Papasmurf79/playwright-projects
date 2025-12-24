@@ -15,6 +15,7 @@ This project is designed to demonstrate **professional-grade UI automation**, in
 - **Allure Test Reporter**
 - **Faker.js**
 - **Playwright Extra (Stealth & reCAPTCHA plugins)**
+- **Eslint Plugin**
 
 ---
 
@@ -75,6 +76,13 @@ This project is designed to demonstrate **professional-grade UI automation**, in
 - Demonstrates file upload using POM abstraction
 - Clean separation of test logic and UI interaction
 - Improves test repeatability and realism
+
+---
+
+### 🧹 ESLint
+- Enforces consistent TypeScript coding standards
+- Catches common bugs and anti-patterns early
+- Keeps test code clean, readable, and maintainable
 
 ---
 
