@@ -19,14 +19,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 🔍 Validate playwright-extra plugins are installed
-      # (Fails fast if someone removes them from package.json)
-     # - name: Verify Playwright Extra plugins
-      #  run: |
-       #   node -e "require('playwright-extra')"
-        #  node -e "require('playwright-extra-plugin-stealth')"
-         # node -e "require('playwright-extra-plugin-recaptcha')"
-
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
@@ -43,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
-          path: playwright-report/
+          path: playwright-report
           retention-days: 7
 
       - name: Upload Playwright Test Results
