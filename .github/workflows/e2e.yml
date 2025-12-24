@@ -51,13 +51,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: playwright-test-results
-          path: test-results/
+          path: test-results
           retention-days: 7
 
-      - name: Upload Allure Results
+      - name: Upload Test Results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results
-          path: allure-results/
+          name: Test results
+          path: test-results
           retention-days: 7
