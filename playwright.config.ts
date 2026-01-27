@@ -34,7 +34,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
 
-    storageState: 'storageState.json', // Added for Signed-In State
+    storageState: "loggedInState.json", // Added for Signed-In State
   },
 
   /* Configure projects for major browsers */
