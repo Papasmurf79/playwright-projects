@@ -35,7 +35,7 @@ This project is designed to demonstrate **professional-grade UI automation**, in
 │   ├── MobyGamesSite.spec.ts
 │   ├── FakerJS.Inputs.spec.ts
 │   ├── pomUploadFile.spec.ts
-│   └── example.spec.ts
+│   └── MockAPI.spec.ts
 │
 ├── tests-examples/              # Playwright reference examples
 │   └── demo-todo-app.spec.ts
@@ -76,6 +76,13 @@ This project is designed to demonstrate **professional-grade UI automation**, in
 - Demonstrates file upload using POM abstraction
 - Clean separation of test logic and UI interaction
 - Improves test repeatability and realism
+
+---
+
+### 🧪💻 MockAPI.spec.ts
+- Demostrates mocking API without backend dependencies
+- Allows for edge case testing of websites and elements
+- Ensure verifications without test or production enviornment changes
 
 ---
 
