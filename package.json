@@ -8,9 +8,18 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@faker-js/faker": "^10.1.0",
-    "@playwright/test": "^1.57.0",
-    "@types/node": "^24.0.12",
-    "allure-playwright": "^3.4.3"
+    "@axe-core/playwright": "^4.12.1",
+    "@faker-js/faker": "^10.5.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^24.13.2",
+    "allure-playwright": "^3.10.1",
+    "axe-html-reporter": "^2.2.11",
+    "eslint-plugin-playwright": "^2.10.4"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

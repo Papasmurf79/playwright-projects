@@ -25,7 +25,7 @@ test.describe('Upload File', () => {
 
             // DOM Manipulation to make the hidden file input visible
             await page.evaluate(() => {
-                const selector = document.querySelector('input#upfile_1');
+                const selector = document.querySelector('input#upfile_1') as HTMLInputElement;
                 if (selector) {
                     selector.className = '';
                 }
